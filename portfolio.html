@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md SOFIKUL Islam | Cyber Security Specialist</title>
+    <style>
+        /* Core Styles */
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0d0d0d;
+            color: #00ffcc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            transition: background 0.5s, color 0.5s;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .header img {
+            width: 120px;
+            border-radius: 50%;
+            border: 4px solid #ff0066;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+            animation: glitch 2s infinite;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px #ff0066, -2px -2px #00ffcc; }
+            50% { text-shadow: -2px 0px #ff0066, 2px 0px #00ffcc; }
+            100% { text-shadow: 2px 2px #ff0066, -2px -2px #00ffcc; }
+        }
+
+        /* About Section */
+        .about {
+            max-width: 800px;
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        /* Services Section */
+        .services {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        .services h2 {
+            font-size: 28px;
+            color: #ff0066;
+            margin-bottom: 20px;
+        }
+
+        .service-card {
+            display: inline-block;
+            width: 300px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #1e293b, #000000);
+            box-shadow: 0 10px 30px rgba(0, 255, 204, 0.8);
+        }
+
+        .service-card h3 {
+            font-size: 20px;
+            color: #00ffcc;
+        }
+
+        .service-card p {
+            font-size: 14px;
+            color: #e6e6e6;
+        }
+
+        /* Stats Section */
+        .stats {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        .stats h2 {
+            font-size: 28px;
+            color: #ff0066;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            display: inline-block;
+            width: 200px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 36px;
+            color: #00ffcc;
+        }
+
+        .stat-card p {
+            font-size: 18px;
+            color: #e6e6e6;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        .testimonials h2 {
+            font-size: 28px;
+            color: #ff0066;
+        }
+
+        .testimonial-card {
+            display: inline-block;
+            width: 300px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #1e293b, #000000);
+            box-shadow: 0 10px 30px rgba(0, 255, 204, 0.8);
+        }
+
+        .testimonial-card p {
+            font-size: 14px;
+            color: #e6e6e6;
+            margin: 10px 0;
+        }
+
+        .testimonial-card span {
+            font-size: 14px;
+            color: #ff0066;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin: 40px auto;
+            font-size: 14px;
+            color: #666;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media screen and (max-width: 768px) {
+            .header h1 {
+                font-size: 30px;
+            }
+
+            .service-card, .testimonial-card {
+                width: 250px;
+            }
+
+            .stat-card h3 {
+                font-size: 32px;
+            }
+
+            .stat-card p {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .service-card, .testimonial-card {
+                width: 200px;
+            }
+
+            .stat-card h3 {
+                font-size: 28px;
+            }
+
+            .stat-card p {
+                font-size: 14px;
+            }
+
+            .about p {
+                font-size: 16px;
+            }
+
+            .services h2, .stats h2, .testimonials h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://firebasestorage.googleapis.com/v0/b/loan-info-bl-sim.appspot.com/o/InShot_20241231_012616697.jpg?alt=media&token=a462dc7d-fe9a-4899-8443-6b2425fafdc1" alt="Md SOFIKUL Islam">
+        <h1>MD SOFIKUL ISLAM</h1>
+        <p>Cyber Security Specialist</p>
+    </div>
+
+    <div class="about">
+        <p>
+            I am a professional cyber security specialist with a strong passion for building secure systems and tackling digital vulnerabilities.
+        </p>
+    </div>
+
+    <div class="services">
+        <h2>Services</h2>
+        <div class="service-card">
+            <h3>Penetration Testing</h3>
+            <p>Uncover vulnerabilities in your systems before attackers do.</p>
+        </div>
+        <div class="service-card">
+            <h3>Web Security</h3>
+            <p>Protect your web applications from cyber threats.</p>
+        </div>
+        <div class="service-card">
+            <h3>Data Encryption</h3>
+            <p>Secure your sensitive data with advanced encryption techniques.</p>
+        </div>
+    </div>
+
+    <div class="stats">
+        <h2>Statistics</h2>
+        <div class="stat-card">
+            <h3>5+</h3>
+            <p>Years Experience</p>
+        </div>
+        <div class="stat-card">
+            <h3>50+</h3>
+            <p>Projects Completed</p>
+        </div>
+        <div class="stat-card">
+            <h3>30+</h3>
+            <p>Happy Clients</p>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h2>What Clients Say</h2>
+        <div class="testimonial-card">
+            <p>"MD SOFIKUL ISLAM provided an excellent penetration testing service."</p>
+            <span>- John Doe</span>
+        </div>
+        <div class="testimonial-card">
+            <p>"Highly recommend for web application security. Reliable and professional!"</p>
+            <span>- Jane Smith</span>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 MD SOFIKUL ISLAM | All Rights Reserved
+    </div>
+
+</body>
+</html>

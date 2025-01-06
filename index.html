@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md SOFIKUL Islam | Cyber Security Specialist</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: radial-gradient(circle, #000000 30%, #1a202c 100%);
+            color: #00ffcc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .glitch-effect {
+            position: relative;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #00ffcc;
+            animation: glitch 1s infinite;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px #ff0066, -2px -2px #00ffcc; }
+            25% { text-shadow: -2px 0px #ff0066, 2px 0px #00ffcc; }
+            50% { text-shadow: 0px 2px #ff0066, 0px -2px #00ffcc; }
+            75% { text-shadow: 2px -2px #ff0066, -2px 2px #00ffcc; }
+            100% { text-shadow: -2px 2px #ff0066, 2px -2px #00ffcc; }
+        }
+
+        .card {
+            background: linear-gradient(135deg, #1e293b, #000000);
+            width: 400px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 255, 204, 0.8);
+            position: relative;
+            text-align: center;
+        }
+
+        .card-header img {
+            max-width: 150px;
+            border-radius: 50%;
+            border: 3px solid #ff0066;
+            margin-bottom: 20px;
+        }
+
+        .card-header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .neon-text {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff0066;
+            text-shadow: 0 0 10px #ff0066, 0 0 20px #ff0099, 0 0 30px #ff33cc;
+            animation: neon-glow 2s infinite alternate;
+        }
+
+        @keyframes neon-glow {
+            0% { text-shadow: 0 0 5px #ff0066; }
+            100% { text-shadow: 0 0 30px #ff33cc; }
+        }
+
+        .features {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .features li {
+            margin: 10px 0;
+            color: #00ffcc;
+        }
+
+        .features li::before {
+            content: ">";
+            margin-right: 10px;
+            color: #ff0066;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .button {
+            padding: 10px 15px;
+            background: linear-gradient(90deg, #ff0066, #00ffcc);
+            color: black;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0px 5px 15px rgba(255, 0, 102, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 8px 25px rgba(0, 255, 204, 0.8);
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #555555;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img src="https://firebasestorage.googleapis.com/v0/b/loan-info-bl-sim.appspot.com/o/InShot_20241231_012616697.jpg?alt=media&token=a462dc7d-fe9a-4899-8443-6b2425fafdc1" alt="Md SOFIKUL Islam">
+            <h1 class="glitch-effect">Md SOFIKUL Islam</h1>
+        </div>
+        <p class="neon-text">Cyber Security Specialist</p>
+        <div class="features">
+            <h3>Specializations:</h3>
+            <ul>
+                <li>Penetration Testing</li>
+                <li>Web Application Security</li>
+                <li>System Exploitation</li>
+                <li>Zero-Day Analysis</li>
+                <li>Data Encryption & Forensics</li>
+            </ul>
+        </div>
+        <div class="button-container">
+            <a href="https://t.me/MR_D4RK" class="button">Contact Me</a>
+            <a href="portfolio.html" class="button">View Portfolio</a>
+        </div>
+        <div class="footer">
+            &copy; 2025 Designed by MD SOFIKUL ISLAM | All Rights Reserved
+        </div>
+    </div>
+</body>
+</html>
